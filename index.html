@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My CV - IT Lecturer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+      font-size: 12px; /* Reduced font size */
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 15px; /* Reduced padding */
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      border-bottom: 1px solid #ccc; /* Reduced border size */
+      padding-bottom: 15px; /* Reduced padding */
+      gap: 20px;
+    }
+
+    .avatar {
+      width: 120px; /* Reduced avatar size */
+      height: 120px; /* Reduced avatar size */
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #4CAF50;
+      flex-shrink: 0;
+      margin-right: 3rem; /* Reduced margin */
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: 24px; /* Reduced font size */
+      color: #333;
+    }
+
+    .intro p {
+      margin: 3px 0; /* Reduced margin */
+      color: #666;
+      font-size: 12px; /* Reduced font size */
+    }
+
+    section {
+      margin-top: 20px; /* Reduced margin */
+    }
+
+    section h2 {
+      font-size: 18px; /* Reduced font size */
+      color: #4CAF50;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px; /* Reduced margin */
+    }
+
+    .section-content {
+      padding-left: 8px; /* Reduced padding */
+    }
+
+    ul {
+      padding-left: 18px; /* Reduced padding */
+    }
+
+    li {
+      margin-bottom: 4px; /* Reduced margin */
+      font-size: 12px; /* Reduced font size */
+    }
+
+    .project {
+      margin-bottom: 15px; /* Reduced margin */
+    }
+
+    .project-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .project strong {
+      color: #333;
+      font-size: 14px; /* Reduced font size */
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 5px;
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px; /* Reduced font size */
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+      color: #388e3c;
+    }
+
+    .project-link::before {
+      content: "🔗";
+      margin-right: 5px;
+    }
+
+    .highlight {
+      color: #4CAF50;
+    }
+
+    .main-content {
+      display: flex;
+      gap: 20px; /* Reduced gap */
+      margin-top: 20px; /* Reduced margin */
+    }
+
+    .left-column {
+      width: 30%;
+    }
+
+    .right-column {
+      width: 70%;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+      }
+      .left-column, .right-column {
+        width: 100%;
+      }
+
+      .project-title {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">
+        <img src="./images/avt.jpg" alt="Avatar" />
+      </div>
+      <div class="intro">
+        <h1>LA HONG LOC</h1>
+        <p><strong>Email:</strong> hongloc111990@gmail.com</p>
+        <p><strong>Phone:</strong> +84 334 454 203</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hongloc2405/">linkedin.com/in/hongloc2405</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/lahongloc">github.com/lahongloc</a></p>
+        <p><strong>Position:</strong> Part-time IT Lecturer</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <div class="section-content">
+        <p>Final-year IT student and backend intern with strong technical skills in Java, Python, JavaScript, C#, C++, and frameworks like Spring Boot, Flask, and ReactJS. Passionate about teaching, experienced in tutoring classmates and juniors. Patient, friendly, and skilled in making complex topics easy to understand.</p>
+      </div>
+    </section>
+
+    <div class="main-content">
+      <!-- Left Column -->
+      <div class="left-column">
+        <section>
+          <h2>Education</h2>
+          <div class="section-content">
+            <strong>Ho Chi Minh City Open University</strong><br/>
+            Major: Information Technology<br/>
+            GPA: 3.55 / 4.0 – 8.33 / 10.0
+          </div>
+        </section>
+
+        <section>
+          <h2>Certificates</h2>
+          <div class="section-content">
+            <ul>
+              <li><strong>TOEIC 795:</strong> Able to read and understand technical documents, confident in interviews and communication</li>
+              <li><strong>Big Data – Samsung Innovation Campus</strong></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="right-column">
+        <section>
+          <h2>Technical & Teaching Skills</h2>
+          <div class="section-content">
+            <ul>
+              <li><strong>Languages:</strong> Java, Python, C#, JavaScript, HTML, CSS</li>
+              <li><strong>Frameworks:</strong> Spring Boot, Spring MVC, Flask, ExpressJS, NestJS, ASP .NET, ReactJS (NextJS - MUI/Ant Design library)</li>
+              <li><strong>Databases:</strong> PostgreSQL, MySQL, SQL Server, MongoDB</li>
+              <li><strong>Tools:</strong> Git, Docker, Postman, Redis, RabbitMQ</li>
+              <li><strong>Soft Skills:</strong> Clear explanation, interactive teaching, patient and observant, lesson planning, English reading comprehension</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Teaching Experience</h2>
+          <div class="section-content">
+            <ul>
+              <li>Organized peer study groups & tutored classmates in Java, Database, OOP</li>
+              <li>Supported junior students in their course projects: guidance on system architecture, Git usage, and framework implementation</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Featured Projects</h2>
+          <div class="section-content">
+            <div class="project">
+              <div class="project-title">
+                <strong>✅ JobBridge – Job Portal</strong>
+                <a href="https://github.com/lahongloc/jobbridge" target="_blank" class="project-link">Link to project</a>
+              </div>
+              <p><strong>Stack:</strong> Spring Boot, MySQL, ReactJS, Ant Design</p>
+              <p> - ML Job Recommendation (Naive Bayes), Cron Email</p>
+              <p> - Used in teaching REST API, Authorization, ML logic</p>
+            </div>
+
+            <div class="project">
+              <div class="project-title">
+                <strong>✅ TradingDocs – Learning Resource Exchange</strong>
+                <a href="https://github.com/lahongloc/fatmouseShop" target="_blank" class="project-link">Link to project</a>
+              </div>
+              <p><strong>Stack:</strong> ExpressJS, Redis, MongoDB, ReactJS, Animate.css</p>
+              <p> - Used in teaching NodeJS basics, OAuth2, MongoDB</p>
+            </div>
+            <div class="project">
+              <div class="project-title">
+                <strong>✅ Hotel Management WebApp</strong>
+                <a href="https://github.com/lahongloc/HotelManagementWebApp" target="_blank" class="project-link">Link to project</a>
+              </div>
+              <p>
+                <strong>Integrated with:</strong> Twilio SMS, Cloudinary, Gmail SMTP, VNPay<br/>
+                <strong>Stack:</strong> Python Flask, Bootstrap, JavaScript, MySQL
+              </p>
+              <em>📊 Practiced software design, full-stack integration, and third-party service connections</em>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Work Experience</h2>
+          <div class="section-content">
+            <strong>Backend Developer Intern – TGL Solutions (08/02/2025 – Present)</strong><br/>
+            - Worked with C#, .NET, NestJS, NextJS<br/>
+            - Collaborated with BA, QC, Tester; reported to PM<br/>
+            - Participated in Agile process, daily scrum, and sprint reviews
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
